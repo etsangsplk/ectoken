@@ -8,7 +8,7 @@ To find out more about the params to use, refer to the Edgecast documentation at
 
 ```
 import (
-    "ectoken"
+    "github.com/soundcloud/ectoken"
     "fmt"
 )
 
