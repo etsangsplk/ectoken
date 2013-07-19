@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-    token := ectoken.Generate("secret", "ec_expire=1333238400&ec_url_allow=test.mp3j")
+    token, _ := ectoken.Generate("secret", "ec_expire=1333238400&ec_url_allow=test.mp3j")
     fmt.Println(token)
 }
 ```
