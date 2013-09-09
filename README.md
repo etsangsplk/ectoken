@@ -1,3 +1,6 @@
+* Owner: Media Publish Delivery
+* Status: Development
+
 Go implementation to generate authentication tokens, to access protected content via Edgecast CDN.
 
 Requires a valid key registered on edgecast and takes an optional list of extra security parameters (such as expiry time, etc.) and generates a token.
