@@ -1,10 +1,11 @@
 package ectoken
 
 import (
-	"code.google.com/p/go.crypto/blowfish"
 	"crypto/cipher"
 	"errors"
 	"fmt"
+
+	"golang.org/x/crypto/blowfish"
 )
 
 const (
